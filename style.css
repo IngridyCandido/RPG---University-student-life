@@ -1,0 +1,85 @@
+body {
+    
+      }      
+
+.berkshire-swash-regular {
+    font-family: "Berkshire Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.tagesschrift-regular {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.merriweather-p {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+.background-image{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.title-page{
+    font-family: "Berkshire Swash", serif;
+    display: block;
+    justify-content: center;
+}
+
+p {
+    font-family: "Merriweather", serif;
+    display: block;
+    justify-content: center;
+}
+
+.start {
+        margin-top: 40px;
+        margin-bottom: 800px;
+        padding: 20px;
+        font-family: "Merriweather", serif;
+        display: flex;
+        justify-content: center;
+}
+
+.bard {
+    margin-top: 40px;
+    margin-bottom: 6px;
+    background-color:lightpink;
+}
+
+.warrior {
+    margin-top: 40px;
+    margin-bottom: 6px;
+    background-color:rosybrown;
+}
+
+.rogue{
+    margin-top: 40px;
+    margin-bottom: 6px;
+    background-color: rgb(224, 224, 188);
+}
+
+.mage{
+    margin-top: 40px;
+    margin-bottom: 6px;
+    background-color:rgb(148, 231, 204);
+}
+
+.barbarian{
+    margin-top: 40px;
+    margin-bottom: 6px;
+    background-color: rgba(0, 0, 0, 0.199);
+}
